@@ -77,7 +77,7 @@ def scaling(x1,y1,x2,y2,x3,y3):
     glFlush()
 
 def reflection(x1,y1,x2,y2,x3,y3):
-    c=int(input("Enter 1 for Refelction about x axis\nEnter 2 for Refelction about y axis\nEnter 3 for Refelction about origin\nEnter 4 for Refelction about x=y:"))
+    c=int(input("Enter 1 for Refelction about x axis \nEnter 2 for Refelction about y axis \nEnter 3 for Refelction about origin\n Enter 4 for Refelction about x=y:"))
     if c==1:
         glColor3f(0.0,0.0,1.0)
         glPointSize(10)
